@@ -581,7 +581,7 @@ p {
 
 .hero-visual {
   position: relative;
-  min-height: 500px;
+  min-height: 620px;
   width: min(100%, 28rem);
   justify-self: start;
   align-self: center;
