@@ -60,6 +60,12 @@
             </span>
             <span class="nav-link-label">About</span>
           </a>
+          <a href="#journey" class="nav-link">
+            <span class="nav-link-icon" aria-hidden="true">
+              <i class="fa-solid fa-timeline"></i>
+            </span>
+            <span class="nav-link-label">Journey</span>
+          </a>
           <a href="#skills" class="nav-link">
             <span class="nav-link-icon" aria-hidden="true">
               <i class="fa-solid fa-pen-ruler"></i>
@@ -137,7 +143,7 @@
 
          <div class="hero-highlights">
               <div class="highlight-card glass reveal-delay-1">
-                <span class="highlight-label">Recent Role</span>
+                <span class="highlight-label">Professional Experience</span>
                 <strong>Junior UI/UX Designer & Graphic Designer</strong>
                 <small>Clickbyte Technologies Pvt. Ltd.</small>
               </div>
@@ -246,14 +252,14 @@
               <h3>Experience & Education</h3>
             </div>
 
-            <div class="timeline">
+            <div class="timeline" id="journey">
               <article class="timeline-item glass">
                 <div class="timeline-dot"></div>
-                <span class="timeline-date">Current Role</span>
+                <span class="timeline-date">Feb 2026 — July 2026</span>
                 <h4>Junior UI/UX Designer & Graphic Designer</h4>
-                <p class="timeline-place">Clickbyte Technologies Pvt. Ltd.</p>
+                <p class="timeline-place">Clickbyte Technologies Pvt. Ltd. <i class="fa-solid fa-location-dot"></i> Remote</p>
                 <p>
-                  Working on UI/UX design, graphic design, and digital product experiences by
+                  Worked on UI/UX design, graphic design, and digital product experiences by
                   creating clean interfaces, improving usability, and delivering visually
                   engaging design solutions for real-world projects.
                 </p>
@@ -374,7 +380,23 @@
             class="projects-carousel reveal"
             data-projects-carousel
             aria-label="Projects carousel"
-          >
+          > 
+          <div class="project-filters">
+  <button class="filter-btn active" data-filter="all">
+    <i class="fa-regular fa-folder"></i>
+    All
+  </button>
+
+  <button class="filter-btn" data-filter="professional">
+    <i class="fa-solid fa-briefcase"></i>
+    Professional
+  </button>
+
+  <button class="filter-btn" data-filter="practice">
+    <i class="fa-regular fa-star"></i>
+    Practice
+  </button>
+</div>
             <div class="projects-carousel-bar">
               <div class="projects-controls" aria-label="Project navigation">
                 <button
@@ -403,41 +425,14 @@
               id="projectsViewport"
               data-carousel-viewport
               tabindex="0"
-            >
+            >  
               <div class="projects-track" data-carousel-track>
-                <article class="project-card glass reveal">
-                  <div class="project-image project-image-a">
-                    <img src="/images/projectone.png" alt="Project One" />
-                    <a
-                      class="project-launch"
-                      href="https://www.behance.net/gallery/238197677/Landing-Page-Talkwise"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Open Luxury Booking Dashboard project in a new tab"
-                    >
-                      <i
-                        class="fa-solid fa-arrow-up-right-from-square"
-                        aria-hidden="true"
-                      ></i>
-                    </a>
-                  </div>
-                  <div class="project-content">
-                    <div class="project-meta">
-                      <span>Talkwise </span>
-                      <span>Web Design</span>
-                    </div>
-                    <h3>AI-Powered Language Learning </h3>
-                    <p>
-                      A futuristic landing page featuring high-contrast "Dark Mode" UI designed to showcase AI voice feedback and personalized progress tracking.
-                    </p>
-                  </div>
-                </article>
-                <article class="project-card glass reveal-delay-2">
+                 <article class="project-card glass reveal-delay-2" data-category="professional">
                   <div class="project-image project-image-c">
-                    <img src="/images/Dashboard.png" alt="Project Eight" />
+                    <img src="/images/1.png" alt="Project One" />
                     <a
                       class="project-launch"
-                      href="https://www.behance.net/gallery/241403033/E-commerce-Admin-Dashboard"
+                      href="https://1500rs.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label="Open Elegant Brand Landing Page project in a new tab"
@@ -450,16 +445,15 @@
                   </div>
                   <div class="project-content">
                     <div class="project-meta">
-                      <span>Sales Dashboard</span>
-                      <span>Website</span>
+                      <span>End-to-end UI/UX design</span>
+                      <span></span>
                     </div>
-                    <h3>Analytics & Sales Dashboard</h3>
+                    <h3>1500rs</h3> 
                     <p>
-                      A data-rich admin panel featuring clean data visualization, sales analytics tracking, and an integrated AI assistant for streamlined business management.
-                    </p>
+                      Built the complete UI/UX for 1500rs.com, an affordable travel booking platform connecting travelers with hotels, homestays, packages, and activities.</p>
                   </div>
                 </article>
-                <article class="project-card glass reveal">
+                <article class="project-card glass reveal" data-category="practice">
                   <div class="project-image project-image-a">
                     <img src="/images/projecttwo.png" alt="Project two" />
                     <a
@@ -486,7 +480,140 @@
                     </p>
                   </div>
                 </article>
-                <article class="project-card glass reveal">
+                <article class="project-card glass reveal-delay-2" data-category="professional">
+                  <div class="project-image project-image-c">
+                    <img src="/images/3.png" alt="Project Two" />
+                    <a
+                      class="project-launch"
+                      href="https://play.google.com/store/apps/details?id=com.neptechpal.dailytracker&pcampaignid=web_share"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Open Elegant Brand Landing Page project in a new tab"
+                    >
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-meta">
+                      <span>Collaborative UI/UX Design</span>
+                      <span></span>
+                    </div>
+                    <h3>Daily Tracker</h3> 
+                    <p>
+                      Collaborated with another UI/UX designer to design an intuitive mobile app for managing daily habits, tracking income, and monitoring personal expenses efficiently.</p>
+                  </div>
+                </article>
+                <article class="project-card glass reveal-delay-2" data-category="professional">
+                  <div class="project-image project-image-c">
+                    <img src="/images/2.png" alt="Project Two" />
+                    <a
+                      class="project-launch"
+                      href="https://www.clickbyte.tech/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Open Elegant Brand Landing Page project in a new tab"
+                    >
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-meta">
+                      <span>Company Website</span>
+                      <span>
+                    </div>
+                    <h3>Clickbyte Technologies Website</h3> 
+                    <p>
+                      Designed the complete UI/UX for Clickbyte Technologies' official website, transforming requirements into responsive, modern, and intuitive user experiences.</p>
+                  </div>
+                </article>
+                <article class="project-card glass reveal" data-category="practice">
+                  <div class="project-image project-image-a">
+                    <img src="/images/projectone.png" alt="Project One" />
+                     <a
+                      class="project-launch"
+                      href="https://www.behance.net/gallery/238197677/Landing-Page-Talkwise"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Open Luxury Booking Dashboard project in a new tab"
+                    >
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-meta">
+                      <span>Talkwise </span>
+                      <span>Web Design</span>
+                    </div>
+                    <h3>AI-Powered Language Learning </h3>
+                    <p>
+                      A futuristic landing page featuring high-contrast "Dark Mode" UI designed to showcase AI voice feedback and personalized progress tracking.
+                    </p>
+                  </div>
+                </article>
+                <article class="project-card glass reveal-delay-2" data-category="practice">
+                  <div class="project-image project-image-c">
+                    <img src="/images/Dashboard.png" alt="Project Eight" />
+                    <a
+                      class="project-launch"
+                      href="https://www.behance.net/gallery/241403033/E-commerce-Admin-Dashboard"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Open Elegant Brand Landing Page project in a new tab"
+                    >
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-meta">
+                      <span>Sales Dashboard</span>
+                      <span>Website</span>
+                    </div>
+                    <h3>Analytics & Sales Dashboard</h3>
+                    <p>
+                      A data-rich admin panel featuring clean data visualization, sales analytics tracking, and an integrated AI assistant for streamlined business management.
+                    </p>
+                  </div>
+                </article>
+                <article class="project-card glass reveal" data-category="practice">
+                  <div class="project-image project-image-a">
+                    <img src="/images/projecttwo.png" alt="Project two" />
+                    <a
+                      class="project-launch"
+                      href="https://www.behance.net/gallery/238862271/Watch-Website-design"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Open Luxury Booking Dashboard project in a new tab"
+                    >
+                      <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        aria-hidden="true"
+                      ></i>
+                    </a>
+                  </div>
+                  <div class="project-content">
+                    <div class="project-meta">
+                      <span>Mivora</span>
+                      <span>E-commerce</span>
+                    </div>
+                    <h3>Luxury Watch E-commerce</h3>
+                    <p>
+                      A premium, dark-themed hero section utilizing sophisticated lighting effects and clean typography to emphasize product craftsmanship and elegance.
+                    </p>
+                  </div>
+                </article>
+                <article class="project-card glass reveal" data-category="practice">
                   <div class="project-image project-image-a">
                     <img src="/images/projectthree.png" alt="Project Three" />
                     <a
@@ -514,7 +641,7 @@
                   </div>
                 </article>
 
-                <article class="project-card glass reveal-delay-1">
+                <article class="project-card glass reveal-delay-1" data-category="practice">
                   <div class="project-image project-image-b">
                     <img src="/images/projectfour.png" alt="Project Four" />
                     <a
@@ -542,7 +669,7 @@
                   </div>
                 </article>
 
-                <article class="project-card glass reveal-delay-2">
+                <article class="project-card glass reveal-delay-2" data-category="practice">
                   <div class="project-image project-image-c">
                     <img src="/images/projectfive.png" alt="Project Five" />
                     <a
@@ -569,7 +696,7 @@
                     </p>
                   </div>
                 </article>
-                <article class="project-card glass reveal-delay-2">
+                <article class="project-card glass reveal-delay-2" data-category="practice">
                   <div class="project-image project-image-c">
                     <img src="/images/projectsix.png" alt="Project Six" />
                     <a
@@ -596,7 +723,7 @@
                     </p>
                   </div>
                 </article>
-                <article class="project-card glass reveal-delay-2">
+                <article class="project-card glass reveal-delay-2" data-category="practice">
                   <div class="project-image project-image-c">
                     <img src="/images/projectseven.png" alt="Project Seven" />
                     <a
@@ -623,7 +750,7 @@
                     </p>
                   </div>
                 </article>
-                <article class="project-card glass reveal-delay-2">
+                <article class="project-card glass reveal-delay-2" data-category="practice">
                   <div class="project-image project-image-c">
                     <img src="/images/projecteight.png" alt="Project Eight" />
                     <a
